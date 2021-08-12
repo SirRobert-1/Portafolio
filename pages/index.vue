@@ -3,6 +3,7 @@
     <hero />
     <about />
     <experience />
+    <proyectos />
   </div>
 </template>
 
