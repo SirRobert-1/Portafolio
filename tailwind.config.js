@@ -22,6 +22,7 @@ module.exports = {
       white: '#FFFF',
       gris: '#F6F6F6',
       azulado: 'rgba(255,255, 255, 0.5);',
+      negro: '#000000',
     },
     extend: {},
   },
