@@ -4,9 +4,13 @@
     <about />
     <experience />
     <proyectos />
+    <contacto />
   </div>
 </template>
 
 <script>
-export default {}
+import contacto from '~/components/contacto.vue'
+export default {
+  components: { contacto },
+}
 </script>
