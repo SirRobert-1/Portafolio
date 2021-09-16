@@ -1,5 +1,5 @@
 <template>
-  <section class="contacto flex h-screen">
+  <section class="contacto flex h-screen bg-negro text-white">
     <div class="contacto__divLeft flex flex-col justify-center items-center">
       <span class="contacto__title">Contáctame</span>
       <span></span>
@@ -8,11 +8,34 @@
       <span class="contacto__correo">designer@gmail.com</span>
     </div>
     <div class="contacto__divRight flex flex-col justify-center items-start">
-      <span class="contacto__formulario">Contáctame por correo</span>
-      <input type="text" name="Nombre" id="Nombre" placeholder="Nombre" />
-      <input type="email" name="Email" id="email" placeholder="Correo" />
-      <input type="text" name="Mensaje" id="mensaje" placeholder="Mensaje" />
-      <button class="contacto__boton bg-rojo">Contactame</button>
+      <span class="contacto__titulo mb-5">Contáctame por correo</span>
+      <form
+        class="contacto__formulario flex flex-col justify-center items-start"
+      >
+        <input
+          class="contacto__input"
+          type="text"
+          name="Nombre"
+          id="Nombre"
+          placeholder="Nombre"
+        />
+        <input
+          class="contacto__input"
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Correo"
+        />
+        <textarea
+          class="contacto__input"
+          type="text"
+          name="Mensaje"
+          id="mensaje"
+          placeholder="Mensaje"
+        >
+        </textarea>
+        <button class="contacto__boton bg-rojo py-1 px-3">Contáctame</button>
+      </form>
     </div>
   </section>
 </template>
@@ -23,6 +46,14 @@
   }
   &__divRight {
     width: 50vw;
+  }
+  &__input {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 500px;
+    height: 50px;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
   }
 }
 </style>

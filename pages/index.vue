@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="index">
     <hero />
     <about />
     <experience />
@@ -8,9 +8,9 @@
   </div>
 </template>
 
-<script>
-import contacto from '~/components/contacto.vue'
-export default {
-  components: { contacto },
+<script></script>
+<style lang="scss">
+.index {
+  overflow-x: hidden;
 }
-</script>
+</style>
