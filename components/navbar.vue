@@ -10,6 +10,7 @@
       flex
       items-center
       justify-center
+      z-10
     "
   >
     <span class="nav__nombre px-5">Roberto </span>
