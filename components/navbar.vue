@@ -5,8 +5,8 @@
       fixed
       h-10
       w-screen
-      bg-azul
-      text-white
+      bg-gris
+      text-negro
       flex
       items-center
       justify-center

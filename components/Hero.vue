@@ -10,7 +10,7 @@
       "
     >
       <div class="hero__title">
-        I'm Product Designer Hello, my name is Denzel.
+        I'm Product Designer Hello, my name is Roberto.
       </div>
       <div>
         <img class="h-10 w-10" :src="face" alt="" />

@@ -1,6 +1,6 @@
 <template>
   <section class="experience h-screen">
-    <p class="experience__title flex justify-center">Experience</p>
+    <p class="experience__title flex justify-center">Experiencia</p>
     <div class="swiper-container">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
@@ -8,10 +8,10 @@
         <div class="swiper-slide flex flex-col">
           <div class="flex flex-row justify-around">
             <img
-              src="..\assets\images\vue.png"
+              src="..\assets\images\Html.png"
               alt=""
-              height="150"
-              width="150"
+              height="140"
+              width="160"
             />
             <span class="flex items-center">Html</span>
             <p class="experience__texto mb-10 mt-10">
@@ -25,10 +25,10 @@
             <div class="flex flex-row justify-around">
               <img
                 class="mt-5 mb-5"
-                src="..\assets\images\vuetify.png"
+                src="..\assets\images\Css.png"
                 alt=""
                 height="150"
-                width="150"
+                width="160"
               />
               <span class="flex items-center">CSS</span>
               <p class="experience__texto mb-10 mt-10">
@@ -42,10 +42,10 @@
           <div class="swiper-slide flex flex-col">
             <div class="flex flex-row justify-around">
               <img
-                src="..\assets\images\nuxt.png"
+                src="..\assets\images\JavaScript.png"
                 alt=""
-                height="150"
-                width="150"
+                height="130"
+                width="160"
               />
               <span class="flex items-center">JavaScript</span>
               <p class="experience__texto mb-10 mt-10">
