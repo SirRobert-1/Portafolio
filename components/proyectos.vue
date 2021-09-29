@@ -26,6 +26,7 @@
     column-gap: 40px;
     margin: 40px 80px;
     text-align: center;
+    overflow-x: auto;
   }
 }
 </style>

@@ -13,7 +13,7 @@
               height="140"
               width="160"
             />
-            <span class="flex items-center">Html</span>
+            <span class="experience__tecnologias flex items-center">Html</span>
             <p class="experience__texto mb-10 mt-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -30,7 +30,7 @@
                 height="150"
                 width="160"
               />
-              <span class="flex items-center">CSS</span>
+              <span class="experience__tecnologias flex items-center">CSS</span>
               <p class="experience__texto mb-10 mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -47,7 +47,9 @@
                 height="130"
                 width="160"
               />
-              <span class="flex items-center">JavaScript</span>
+              <span class="experience__tecnologias flex items-center"
+                >JavaScript</span
+              >
               <p class="experience__texto mb-10 mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -66,7 +68,7 @@
               height="150"
               width="150"
             />
-            <span class="flex items-center">Vue</span>
+            <span class="experience__tecnologias flex items-center">Vue</span>
             <p class="experience__texto mb-10 mt-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -82,7 +84,9 @@
                 height="150"
                 width="150"
               />
-              <span class="flex items-center">Vuetify</span>
+              <span class="experience__tecnologias flex items-center"
+                >Vuetify</span
+              >
               <p class="experience__texto mb-10 mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -99,7 +103,9 @@
                 height="150"
                 width="150"
               />
-              <span class="flex items-center">Nuxt</span>
+              <span class="experience__tecnologias flex items-center"
+                >Nuxt</span
+              >
               <p class="experience__texto mb-10 mt-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -155,6 +161,10 @@ export default {
   }
   &__texto {
     width: 500px;
+  }
+  &__tecnologias {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
   }
 }
 </style>
