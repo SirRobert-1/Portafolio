@@ -3,13 +3,13 @@
     <div class="proyectos__title">
       <p>Participaciones</p>
     </div>
-    <div class="proyectos__contenedor flex flex-wrap">
-      <div class="bg-transparent border-2 h-250 w-250">Gii Studio</div>
-      <div class="bg-transparent border-2 h-250 w-250">Amazon</div>
-      <div class="bg-transparent border-2 h-250 w-250">Gii Studio</div>
-      <div class="bg-transparent border-2 h-250 w-250">Amazon</div>
-      <div class="bg-transparent border-2 h-250 w-250">Gii Studio</div>
-      <div class="bg-transparent border-2 h-250 w-250">Amazon</div>
+    <div class="proyectos__contenedor">
+      <div class="proyectos__div bg-transparent border-2">Gii Studio</div>
+      <div class="proyectos__div bg-transparent border-2">Amazon</div>
+      <div class="proyectos__div bg-transparent border-2">Gii Studio</div>
+      <div class="proyectos__div bg-transparent border-2">Amazon</div>
+      <div class="proyectos__div bg-transparent border-2">Gii Studio</div>
+      <div class="proyectos__div bg-transparent border-2">Amazon</div>
     </div>
   </section>
 </template>
@@ -19,14 +19,18 @@
     font-size: 2rem;
   }
   &__contenedor {
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px;
-    row-gap: 20px;
-    column-gap: 40px;
-    margin: 40px 80px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: beige;
+    margin: 10px;
+  }
+  &__div {
+    width: 260px;
+    height: 260px;
+    margin: 10px;
     text-align: center;
-    overflow-x: auto;
+    line-height: 75px;
+    font-size: 30px;
   }
 }
 </style>
