@@ -1,118 +1,153 @@
 <template>
-  <section class="experience h-screen">
-    <p class="experience__title flex justify-center">Experiencia</p>
+  <section class="experience xs:h-full lg:h-screen">
+    <p class="experience__title text-center mb-10">Experiencia</p>
     <div class="swiper-container">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide flex flex-col">
-          <div class="flex flex-row justify-around">
+        <div class="swiper-slide">
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
             <img
               src="..\assets\images\Html.png"
               alt=""
-              height="140"
-              width="160"
+              class="experience__logos"
             />
-            <span class="experience__tecnologias flex items-center">Html</span>
-            <p class="experience__texto mb-10 mt-10">
+            <p class="experience__tecnologias">Html</p>
+            <p class="experience__texto">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="swiper-slide flex flex-col">
-            <div class="flex flex-row justify-around">
-              <img
-                class="mt-5 mb-5"
-                src="..\assets\images\Css.png"
-                alt=""
-                height="150"
-                width="160"
-              />
-              <span class="experience__tecnologias flex items-center">CSS</span>
-              <p class="experience__texto mb-10 mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
+            <img
+              src="..\assets\images\Css.png"
+              alt=""
+              class="experience__logos"
+            />
+            <span class="experience__tecnologias">CSS</span>
+            <p class="experience__texto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
-          <div class="swiper-slide flex flex-col">
-            <div class="flex flex-row justify-around">
-              <img
-                src="..\assets\images\JavaScript.png"
-                alt=""
-                height="130"
-                width="160"
-              />
-              <span class="experience__tecnologias flex items-center"
-                >JavaScript</span
-              >
-              <p class="experience__texto mb-10 mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
+            <img
+              src="..\assets\images\JavaScript.png"
+              alt=""
+              class="experience__logos"
+            />
+            <span class="experience__tecnologias">JavaScript</span>
+            <p class="experience__texto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
         </div>
-        <div class="swiper-slide flex flex-col">
-          <div class="flex flex-row justify-around">
+        <div class="swiper-slide">
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
             <img
-              class="mt-5 mb-5"
               src="..\assets\images\vue.png"
               alt=""
-              height="150"
-              width="150"
+              class="experience__logos"
             />
-            <span class="experience__tecnologias flex items-center">Vue</span>
-            <p class="experience__texto mb-10 mt-10">
+            <span class="experience__tecnologias">Vue</span>
+            <p class="experience__texto">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-          <div class="swiper-slide flex flex-col">
-            <div class="flex flex-row justify-around">
-              <img
-                src="..\assets\images\vuetify.png"
-                alt=""
-                height="150"
-                width="150"
-              />
-              <span class="experience__tecnologias flex items-center"
-                >Vuetify</span
-              >
-              <p class="experience__texto mb-10 mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
+            <img
+              src="..\assets\images\vuetify.png"
+              alt=""
+              class="experience__logos"
+            />
+            <span class="experience__tecnologias">Vuetify</span>
+            <p class="experience__texto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
-          <div class="swiper-slide flex flex-col">
-            <div class="flex flex-row justify-around">
-              <img
-                src="..\assets\images\nuxt.png"
-                alt=""
-                height="150"
-                width="150"
-              />
-              <span class="experience__tecnologias flex items-center"
-                >Nuxt</span
-              >
-              <p class="experience__texto mb-10 mt-10">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+
+          <div
+            class="
+              experience__div
+              flex
+              xs:flex-col
+              lg:flex-row
+              justify-around
+              items-center
+            "
+          >
+            <img
+              src="..\assets\images\nuxt.png"
+              alt=""
+              class="experience__logos"
+            />
+            <span class="experience__tecnologias">Nuxt</span>
+            <p class="experience__texto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
         </div>
       </div>
@@ -155,16 +190,27 @@ export default {
 </script>
 <style lang="scss">
 .experience {
+  &__div {
+    margin-bottom: 2rem;
+    padding: 0 5rem;
+  }
   &__title {
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   &__texto {
-    width: 500px;
+    @include screen(desktop) {
+      width: 500px;
+    }
   }
   &__tecnologias {
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
+  }
+  &__logos {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
   }
 }
 </style>

@@ -15,7 +15,8 @@
     "nuxt": "^2.15.7",
     "swiper": "^6.8.4",
     "sass": "^1.32.1",
-    "sass-loader": "10"
+    "sass-loader": "10",
+    "@nuxtjs/style-resources": "1.2.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
