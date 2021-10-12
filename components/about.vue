@@ -45,7 +45,7 @@
     }
   }
   &__title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   &__subtitle {
     font-size: 3rem;

@@ -1,6 +1,6 @@
 <template>
   <section class="experience xs:h-full lg:h-screen">
-    <p class="experience__title text-center mb-10">Experiencia</p>
+    <p class="experience__title text-center my-5">Experiencia</p>
     <div class="swiper-container">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">

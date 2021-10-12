@@ -1,6 +1,6 @@
 <template>
-  <section class="proyectos xs:h-full lg:h-screen">
-    <div class="proyectos__title">
+  <section class="proyectos xs:h-full lg:h-screen bg-beige">
+    <div class="proyectos__title pl-5">
       <p>Participaciones</p>
     </div>
     <div class="proyectos__contenedor">
@@ -21,8 +21,7 @@
   &__contenedor {
     flex-wrap: wrap;
     display: flex;
-    background-color: beige;
-    margin: 10px;
+    margin-left: 15px;
   }
   &__div {
     width: 260px;

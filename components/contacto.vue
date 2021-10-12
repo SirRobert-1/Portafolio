@@ -22,7 +22,7 @@
         lg:px-20
       "
     >
-      <span class="contacto__title">Contáctame</span>
+      <span class="contacto__title mb-5">Contáctame</span>
       <span></span>
       <span class="contacto__direccion">69 Queen St, Melbourne Australia</span>
       <span class="contacto__telefono">5659497845</span>
@@ -71,7 +71,8 @@
             py-1
             px-3
             rounded-lg
-            mb-5
+            xs:mb-5
+            lg:mb-2
           "
         >
           Contáctame
@@ -94,13 +95,31 @@
       width: 50vw;
     }
   }
+  &__title {
+    font-size: 2rem;
+  }
+  &__direccion {
+    font-size: 1.5rem;
+  }
+  &__telefono {
+    font-size: 1.5rem;
+  }
+  &__correo {
+    font-size: 1.5rem;
+  }
+  &__titulo {
+    font-size: 1.5rem;
+  }
   &__input {
     background-color: transparent;
     border-bottom: 1px solid white;
-    width: 500px;
+    width: 300px;
     height: 50px;
     padding-left: 1rem;
     margin-bottom: 2rem;
+    @include screen(desktop) {
+      width: 500px;
+    }
   }
 }
 </style>
