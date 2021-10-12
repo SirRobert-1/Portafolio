@@ -1,13 +1,42 @@
 <template>
-  <section class="contacto flex h-screen bg-negro text-white">
-    <div class="contacto__divLeft flex flex-col justify-center items-center">
+  <section
+    class="
+      contacto
+      flex
+      xs:flex-col
+      lg:flex-row
+      xs:h-full
+      lg:h-screen
+      bg-negro
+      text-white
+    "
+  >
+    <div
+      class="
+        contacto__divLeft
+        flex flex-col
+        justify-center
+        xs:items-start
+        lg:items-center
+        xs:pl-5
+        lg:px-20
+      "
+    >
       <span class="contacto__title">Contáctame</span>
       <span></span>
       <span class="contacto__direccion">69 Queen St, Melbourne Australia</span>
       <span class="contacto__telefono">5659497845</span>
       <span class="contacto__correo">designer@gmail.com</span>
     </div>
-    <div class="contacto__divRight flex flex-col justify-center items-start">
+    <div
+      class="
+        contacto__divRight
+        flex flex-col
+        justify-center
+        items-start
+        xs:pl-5
+      "
+    >
       <span class="contacto__titulo mb-5">Contáctame por correo</span>
       <form
         class="contacto__formulario flex flex-col justify-center items-start"
@@ -34,7 +63,19 @@
           placeholder="Mensaje"
         >
         </textarea>
-        <button class="contacto__boton bg-rojo py-1 px-3">Contáctame</button>
+        <button
+          class="
+            contacto__boton
+            bg-rojo
+            hover:bg-rojiso
+            py-1
+            px-3
+            rounded-lg
+            mb-5
+          "
+        >
+          Contáctame
+        </button>
       </form>
     </div>
   </section>
@@ -42,10 +83,16 @@
 <style lang="scss">
 .contacto {
   &__divLeft {
-    width: 50vw;
+    width: 100vw;
+    @include screen(desktop) {
+      width: 50vw;
+    }
   }
   &__divRight {
-    width: 50vw;
+    width: 100vw;
+    @include screen(desktop) {
+      width: 50vw;
+    }
   }
   &__input {
     background-color: transparent;

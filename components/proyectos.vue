@@ -1,5 +1,5 @@
 <template>
-  <section class="proyectos h-screen">
+  <section class="proyectos xs:h-full lg:h-screen">
     <div class="proyectos__title">
       <p>Participaciones</p>
     </div>
