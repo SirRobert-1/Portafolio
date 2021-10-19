@@ -83,6 +83,8 @@
 </template>
 <style lang="scss">
 .contacto {
+  //background-image: url(../assets/images/backgrounds/Fondo-1.jpg);
+  background-color: #200082;
   &__divLeft {
     width: 100vw;
     @include screen(desktop) {

@@ -1,5 +1,5 @@
 <template>
-  <section class="hero h-screen flex flex-col justify-center bg-negro pl-10">
+  <section class="hero h-screen flex flex-col justify-center pl-10">
     <div class="hero__container text-white">
       <p class="hero__subtitle">I'm Product Designer</p>
       <p class="hero__title">Hello, my name is Roberto.</p>
@@ -21,6 +21,8 @@ export default {
 </script>
 <style lang="scss">
 .hero {
+  //background-image: url('../assets/images/backgrounds/Fondo-1.jpg');
+  background-color: #200082;
   &__container {
     width: 50vw;
   }

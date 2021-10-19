@@ -24,6 +24,7 @@ module.exports = {
       azulado: 'rgba(255,255, 255, 0.5)',
       negro: '#000000',
       beige: '#f5f5dc',
+      darkBlue: '#003153',
     },
     extend: {},
   },

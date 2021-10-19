@@ -1,9 +1,9 @@
 <template>
-  <section class="experience xs:h-full lg:h-screen">
-    <p class="experience__title text-center my-5">Experiencia</p>
+  <section class="experience xs:h-full lg:h-screen lg:py-10">
+    <p class="experience__title text-center mb-5 text-darkBlue">Experiencia</p>
     <div class="swiper-container">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper text-darkBlue">
         <!-- Slides -->
         <div class="swiper-slide">
           <div

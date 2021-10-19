@@ -8,6 +8,7 @@
         items-start
         xs:px-5
         lg:px-20
+        text-white
       "
     >
       <span class="about__title my-5">My specialization</span>
@@ -32,6 +33,9 @@
 </template>
 <style lang="scss">
 .about {
+  background-image: url(../assets/images/backgrounds/bg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   &__divLeft {
     width: 100vw;
     @include screen(desktop) {

@@ -6,7 +6,7 @@
       h-10
       w-screen
       bg-gris
-      text-negro
+      text-darkBlue
       flex
       items-center
       justify-center
