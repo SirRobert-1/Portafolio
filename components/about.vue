@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="about__divRight flex justify-center items-center px-5">
-      <img src="..\assets\images\foto.jpg" alt="" />
+      <img src="@/assets/images/foto.jpg" alt="" />
     </div>
   </section>
 </template>
