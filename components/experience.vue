@@ -17,7 +17,7 @@
             "
           >
             <img
-              src="..\assets\images\Html.png"
+              src="@\assets\images\Html.png"
               alt=""
               class="experience__logos"
             />
@@ -40,7 +40,7 @@
             "
           >
             <img
-              src="..\assets\images\Css.png"
+              src="@\assets\images\Css.png"
               alt=""
               class="experience__logos"
             />
@@ -64,7 +64,7 @@
             "
           >
             <img
-              src="..\assets\images\JavaScript.png"
+              src="@\assets\images\JavaScript.png"
               alt=""
               class="experience__logos"
             />
@@ -89,7 +89,7 @@
             "
           >
             <img
-              src="..\assets\images\vue.png"
+              src="@\assets\images\vue.png"
               alt=""
               class="experience__logos"
             />
@@ -113,7 +113,7 @@
             "
           >
             <img
-              src="..\assets\images\vuetify.png"
+              src="@\assets\images\vuetify.png"
               alt=""
               class="experience__logos"
             />
@@ -137,7 +137,7 @@
             "
           >
             <img
-              src="..\assets\images\nuxt.png"
+              src="@\assets\images\nuxt.png"
               alt=""
               class="experience__logos"
             />
