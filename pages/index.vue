@@ -1,7 +1,16 @@
 <template>
-  <Tutorial/>
+  <div class="index">
+    <hero />
+    <about />
+    <experience />
+    <proyectos />
+    <contacto />
+  </div>
 </template>
 
-<script>
-export default {}
-</script>
+<script></script>
+<style lang="scss">
+.index {
+  overflow-x: hidden;
+}
+</style>

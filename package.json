@@ -1,5 +1,5 @@
 {
-  "name": "Portafolio",
+  "name": "portafolio",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "core-js": "^3.16.3",
+    "node-sass": "^6.0.1",
+    "nuxt": "^2.15.7",
+    "swiper": "^6.8.4",
+    "sass": "^1.32.1",
+    "sass-loader": "10",
+    "@nuxtjs/style-resources": "1.2.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.2.0",
