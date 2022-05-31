@@ -25,8 +25,8 @@
       <span class="contacto__title mb-5">Contáctame</span>
       <span></span>
       <span class="contacto__direccion">69 Queen St, Melbourne Australia</span>
-      <span class="contacto__telefono">5659497845</span>
-      <span class="contacto__correo">designer@gmail.com</span>
+      <span class="contacto__telefono">22 81 60 40 84</span>
+      <span class="contacto__correo">rviverosgonzalez@gmail.com</span>
     </div>
     <div
       class="
@@ -122,6 +122,10 @@
     @include screen(desktop) {
       width: 500px;
     }
+  }
+  &__img {
+    width: 50px;
+    height: 50px;
   }
 }
 </style>

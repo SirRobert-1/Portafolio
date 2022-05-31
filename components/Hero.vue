@@ -3,26 +3,9 @@
     <div class="hero__container text-white">
       <p class="hero__subtitle">I'm Product Designer</p>
       <p class="hero__title">Hello, my name is Roberto.</p>
-      <div>
-        <img
-          class="h-10 w-10"
-          src="@/assets/images/icons/facebook.svg"
-          alt=""
-        />
-      </div>
     </div>
   </section>
 </template>
-<script>
-import face from '../assets/images/icons/facebook.svg'
-export default {
-  data() {
-    return {
-      face: face,
-    }
-  },
-}
-</script>
 <style lang="scss">
 .hero {
   //background-image: url('../assets/images/backgrounds/Fondo-1.jpg');

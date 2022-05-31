@@ -3,18 +3,20 @@
     class="
       nav
       fixed
-      h-10
+      h-20
+      lg:h-12
       w-screen
       bg-gris
       text-darkBlue
-      flex
+      flex flex-col
+      lg:flex-row
       items-center
-      justify-center
+      justify-around
       z-10
     "
   >
-    <span class="nav__nombre px-5">Roberto </span>
-    <span class="nav__telefono px-5">5659497845</span>
-    <span class="nav__correo px-5">designer@gmail.com</span>
+    <span class="nav__nombre px-5">Roberto Viveros González</span>
+    <span class="nav__telefono px-5">22 81 60 40 84</span>
+    <span class="nav__correo px-5">rviverosgonzalez@gmail.com</span>
   </nav>
 </template>
