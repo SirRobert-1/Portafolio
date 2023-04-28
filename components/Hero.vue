@@ -12,6 +12,10 @@
   background-color: #200082;
   &__container {
     width: 50vw;
+    margin-top: 4rem;
+    @include screen(desktop) {
+      margin-top: 0;
+    }
   }
   &__subtitle {
     font-size: 2rem;

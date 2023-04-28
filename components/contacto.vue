@@ -16,30 +16,31 @@
         contacto__divLeft
         flex flex-col
         justify-center
-        xs:items-start
+        items-start
         lg:items-center
-        xs:pl-5
+        pl-5
         lg:px-20
       "
     >
-      <span class="contacto__title mb-5">Contáctame</span>
-      <span></span>
-      <span class="contacto__direccion">69 Queen St, Melbourne Australia</span>
-      <span class="contacto__telefono">22 81 60 40 84</span>
-      <span class="contacto__correo">rviverosgonzalez@gmail.com</span>
+      <span class="contacto__title my-5 text-4xl">Contáctame</span>
+      <span class="contacto__direccion my-2"
+        >69 Queen St, Melbourne Australia</span
+      >
+      <span class="contacto__telefono my-2">22 81 60 40 84</span>
+      <span class="contacto__correo my-2">rviverosgonzalez@gmail.com</span>
     </div>
     <div
-      class="
-        contacto__divRight
-        flex flex-col
-        justify-center
-        items-start
-        xs:pl-5
-      "
+      class="contacto__divRight flex flex-col justify-center items-start pl-5"
     >
-      <span class="contacto__titulo mb-5">Contáctame por correo</span>
+      <span class="contacto__titulo my-5">Contáctame por correo</span>
       <form
-        class="contacto__formulario flex flex-col justify-center items-start"
+        class="
+          contacto__formulario
+          flex flex-col
+          justify-center
+          items-start
+          ml-5
+        "
       >
         <input
           class="contacto__input"
@@ -96,9 +97,6 @@
     @include screen(desktop) {
       width: 50vw;
     }
-  }
-  &__title {
-    font-size: 2rem;
   }
   &__direccion {
     font-size: 1.5rem;

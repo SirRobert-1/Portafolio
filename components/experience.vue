@@ -1,6 +1,8 @@
 <template>
   <section class="experience xs:h-full lg:h-screen lg:py-10">
-    <p class="experience__title text-center mb-5 text-darkBlue">Experiencia</p>
+    <p class="experience__title text-center my-5 text-darkBlue text-4xl">
+      Experiencia
+    </p>
     <div class="swiper-container">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper text-darkBlue">
@@ -195,17 +197,19 @@ export default {
     padding: 0 5rem;
   }
   &__title {
-    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   &__texto {
+    text-align: justify;
+    margin-bottom: 14px;
     @include screen(desktop) {
       width: 500px;
     }
   }
   &__tecnologias {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    margin: 8px;
   }
   &__logos {
     height: 100px;
