@@ -1,5 +1,5 @@
 <template>
-  <section class="about flex xs:flex-col lg:flex-row xs:h-full lg:h-screen">
+  <section class="about flex flex-col lg:flex-row h-full lg:h-screen">
     <div
       class="
         about__divLeft

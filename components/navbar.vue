@@ -8,8 +8,7 @@
       w-screen
       bg-gris
       text-darkBlue
-      flex flex-col
-      lg:flex-row
+      flex flex-wrap
       items-center
       justify-around
       z-10
